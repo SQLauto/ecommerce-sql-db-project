@@ -595,7 +595,7 @@ GO
 
 
 ---------------------------------------------------------------------------
------- PROCEDURY DODAJ•CE DANE DO BAZY ------------------------------------
+------ PROCEDURY DODAJƒÑCE DANE DO BAZY ------------------------------------
 ---------------------------------------------------------------------------
 
 CREATE PROCEDURE dbo.AddCustomersAddress
@@ -1680,7 +1680,7 @@ GO
 -------------------------------------------------------------------------------------------------------------------------------------------------
 
 -------------------------TABELA-CUSTOMERS-----------------------
--- Wstawianie przyk≥adowych danych do tabeli Customers poleceniem:
+-- Wstawianie przyk≈Çadowych danych do tabeli Customers poleceniem:
 ----------------------------------------------------------------
 -- EXEC InsertCustomer @Login nvarchar(50), @Password nvarchar(50), 
 -- @FirstName nvarchar(50), @LastName nvarchar(50),
@@ -1689,37 +1689,37 @@ GO
 -- @Street_Number int, @State nvarchar(20);
 ----------------------------------------------------------------
 
-EXEC dbo.InsertCustomer 'Komar', '4234324', 'Krzysztof', 'Komarski', 'kk@wp.pl', '234564321', 'Poland', 'Wroc≥aw',
-						'21-312', 'GrabiszyÒska', 21, 'Dolnoúlπskie';
+EXEC dbo.InsertCustomer 'Komar', '4234324', 'Krzysztof', 'Komarski', 'kk@wp.pl', '234564321', 'Poland', 'Wroc≈Çaw',
+						'21-312', 'Grabiszy≈Ñska', 21, 'Dolno≈õlƒÖskie';
 GO
-EXEC dbo.InsertCustomer 'Aaani', '32fas3rf', 'Anna', 'Jab≥oÒska', 'anna-ja@onet.pl', '324456789', 'Poland', 'KrakÛw',
-						'32-432', 'Wroc≥awska', 34, 'Ma≥opolskie';
+EXEC dbo.InsertCustomer 'Aaani', '32fas3rf', 'Anna', 'Jab≈Ço≈Ñska', 'anna-ja@onet.pl', '324456789', 'Poland', 'Krak√≥w',
+						'32-432', 'Wroc≈Çawska', 34, 'Ma≈Çopolskie';
 GO
-EXEC dbo.InsertCustomer 'Caddie', '32245', 'Rafa≥', 'Cmyk', 'cmykkk@gmail.com', '345634567', 'Poland', 'Warszawa',
-						'54-324', 'PowstaÒscÛw ålπskich', 1, 'Mazowieckie';
+EXEC dbo.InsertCustomer 'Caddie', '32245', 'Rafa≈Ç', 'Cmyk', 'cmykkk@gmail.com', '345634567', 'Poland', 'Warszawa',
+						'54-324', 'Powsta≈Ñsc√≥w ≈ölƒÖskich', 1, 'Mazowieckie';
 GO
-EXEC dbo.InsertCustomer 'Koniu', 'fds23gf', 'Radek', 'Kawalec', 'radu@gmail.com', '837263987', 'Poland', 'Wroc≥aw',
-						'21-322', 'Prosta', 79, 'Dolnoúlπskie';
+EXEC dbo.InsertCustomer 'Koniu', 'fds23gf', 'Radek', 'Kawalec', 'radu@gmail.com', '837263987', 'Poland', 'Wroc≈Çaw',
+						'21-322', 'Prosta', 79, 'Dolno≈õlƒÖskie';
 GO
-EXEC dbo.InsertCustomer 'Puchatek', 'fwef23512d', 'Bartosz', 'DziÍcio≥', 'dzieciu@onet.pl', '948376253', 'Poland', 'Opole',
-						'43-422', 'Krakowska', 213, 'Dolnoúlπskie';
+EXEC dbo.InsertCustomer 'Puchatek', 'fwef23512d', 'Bartosz', 'Dziƒôcio≈Ç', 'dzieciu@onet.pl', '948376253', 'Poland', 'Opole',
+						'43-422', 'Krakowska', 213, 'Dolno≈õlƒÖskie';
 GO
-EXEC dbo.InsertCustomer 'Ruda', 'fds23g', 'Graøyna', 'Niedziela', 'grazyna.niedziela@gmail.com', '998345736', 'Poland', 'PoznaÒ',
+EXEC dbo.InsertCustomer 'Ruda', 'fds23g', 'Gra≈ºyna', 'Niedziela', 'grazyna.niedziela@gmail.com', '998345736', 'Poland', 'Pozna≈Ñ',
 						'42-323', 'Krzywoustego', 101, 'Wielkopolskie';
 GO
-EXEC dbo.InsertCustomer 'Gumis', 'few3244', 'Pawe≥', 'Guma', 'gumski@wp.pl', '984583748', 'Poland', 'GdaÒsk',
+EXEC dbo.InsertCustomer 'Gumis', 'few3244', 'Pawe≈Ç', 'Guma', 'gumski@wp.pl', '984583748', 'Poland', 'Gda≈Ñsk',
 						'56-322', 'Trakcyjna', 221, 'Pomorskie';
 GO
 EXEC dbo.InsertCustomer 'Heleka213', 'k32j42n', 'Helena', 'Grzyb', 'helagrzyb@poczta.fm', '938402938', 'Poland', 'Warszawa',
 						'23-433', 'Os. Sobieskiego', 121, 'Mazowieckie';
 GO
-EXEC dbo.InsertCustomer 'Arreet123', 'fsd32fs', 'Arleta', 'MrÛz', 'a.mroz134@wp.pl', '938493874', 'Poland', 'Sulistrowice',
-						'25-324', 'Rzeczna', 2, 'Dolnoúlπskie';
+EXEC dbo.InsertCustomer 'Arreet123', 'fsd32fs', 'Arleta', 'Mr√≥z', 'a.mroz134@wp.pl', '938493874', 'Poland', 'Sulistrowice',
+						'25-324', 'Rzeczna', 2, 'Dolno≈õlƒÖskie';
 GO
-EXEC dbo.InsertCustomer 'Igla21', 'fs23tg', 'Izabela', 'PrfoÒska', 'prfiz@wp.pl', '876537892', 'Poland', 'Oborniki Wielkopolskie',
+EXEC dbo.InsertCustomer 'Igla21', 'fs23tg', 'Izabela', 'Prfo≈Ñska', 'prfiz@wp.pl', '876537892', 'Poland', 'Oborniki Wielkopolskie',
 						'42-324', 'Rolna', 65, 'Wielkopolskie';
 ----------------------------------------------------------------
--- Dodawanie kolejnego adresu do istniejπcego juø klienta poleceniem:
+-- Dodawanie kolejnego adresu do istniejƒÖcego ju≈º klienta poleceniem:
 -----------------------------------------------------------------
 -- EXEC AddCustomersAddress @IdCustomer int, @Country varchar(10),
 -- @City varchar(10), @Zip_code nchar(6), @Street_Name varchar(30),
@@ -1730,11 +1730,11 @@ EXEC AddCustomersAddress 1, 'Afganistan', 'Afg an', '00-001', 'Sunnnn Settt', 66
 GO
 EXEC AddCustomersAddress 2, 'Wielka Brytania', 'Londyn', '21-001', 'Blue Street', 21, 'London';
 GO
-EXEC AddCustomersAddress 3, 'Polska', 'Szczecin', '32-320', 'RÛøana', 216, 'Pomorskie';
+EXEC AddCustomersAddress 3, 'Polska', 'Szczecin', '32-320', 'R√≥≈ºana', 216, 'Pomorskie';
 GO
 
 ----------------------------------------------------------------
--- Zmiana domyúlnego adresu klienta (MainAddress) poleceniem:
+-- Zmiana domy≈õlnego adresu klienta (MainAddress) poleceniem:
 ----------------------------------------------------------------
 -- EXEC SetMainCustomersAddress @IdCustomer, @IdMainAddress;
 -----------------------------------------------------------------
@@ -1754,17 +1754,17 @@ GO
 
 EXEC InsertGroup 'Administrator', 'Admin';
 GO
-EXEC InsertGroup 'Sprzedawca poczπtkujπcy', 'SellerL1';
+EXEC InsertGroup 'Sprzedawca poczƒÖtkujƒÖcy', 'SellerL1';
 GO
 EXEC InsertGroup 'Sprzedawca zaawansowany', 'SellerL2';
 GO
 EXEC InsertGroup 'Sprzedawca senior', 'SellerL3';
 GO
-EXEC InsertGroup 'Menadøer', 'Manager';
+EXEC InsertGroup 'Menad≈ºer', 'Manager';
 GO
 
 -------------TABELA-EMPLOYEES-------------------------------------
--- Wstawianie przyk≥adowych danych do tabeli Employees poleceniem:
+-- Wstawianie przyk≈Çadowych danych do tabeli Employees poleceniem:
 ------------------------------------------------------------------
 -- EXEC @Login nvarchar(50), @Password nvarchar(50), @IdGroup int,
 -- @FirstName nvarchar(50), @LastName nvarchar(50), @Email nvarchar(50),
@@ -1774,34 +1774,34 @@ GO
 -------------------------------------------------------------------
 
 EXEC InsertEmployee 'EJanKowal', '321rfew321f', 1, 'Jan', 'Kowalski', 'janek@supersklep.pl', '000000213', 'Polska', 
-	'Wroc≥aw', '21-312', 'D≥uga', 21, 'Dolnoúlπskie';
+	'Wroc≈Çaw', '21-312', 'D≈Çuga', 21, 'Dolno≈õlƒÖskie';
 GO
 EXEC InsertEmployee 'EJolaByl', 'dsa3f23f', 1, 'Jolanta', 'Bylowska', 'jolka@supersklep.pl', '000000214', 'Polska', 
-	'Wroc≥aw', '21-312', 'KrÛtka', 211, 'Dolnoúlπskie';
+	'Wroc≈Çaw', '21-312', 'Kr√≥tka', 211, 'Dolno≈õlƒÖskie';
 GO
-EXEC InsertEmployee 'EBartOl', '3dasfasewg21f', 1, 'Bartosz', 'OlekaÒczuk', 'bart@supersklep.pl', '000000210', 'Polska', 
-	'Wroc≥aw', '21-645', 'Stroma', 54, 'Dolnoúlπskie';
+EXEC InsertEmployee 'EBartOl', '3dasfasewg21f', 1, 'Bartosz', 'Oleka≈Ñczuk', 'bart@supersklep.pl', '000000210', 'Polska', 
+	'Wroc≈Çaw', '21-645', 'Stroma', 54, 'Dolno≈õlƒÖskie';
 GO
-EXEC InsertEmployee 'EGrzegSztolpa', 'g43kjfew32', 1, 'Grzegorz', 'Szto≥pa', 'greg-s@supersklep.pl', '000000113', 'Polska', 
-	'Wroc≥aw', '21-312', 'Pochy≥a', 32, 'Dolnoúlπskie';
+EXEC InsertEmployee 'EGrzegSztolpa', 'g43kjfew32', 1, 'Grzegorz', 'Szto≈Çpa', 'greg-s@supersklep.pl', '000000113', 'Polska', 
+	'Wroc≈Çaw', '21-312', 'Pochy≈Ça', 32, 'Dolno≈õlƒÖskie';
 GO
 EXEC InsertEmployee 'EAnnaBalonik', 'fsdrew43fs', 1, 'Anna', 'Balonik', 'aneczka@supersklep.pl', '000000192', 'Polska', 
-	'Wroc≥aw', '54-234', 'Robocza', 264, 'Dolnoúlπskie';
+	'Wroc≈Çaw', '54-234', 'Robocza', 264, 'Dolno≈õlƒÖskie';
 GO
 EXEC InsertEmployee 'EKrysHubert', 'g23ew23', 2, 'Krystyna', 'Hubert', 'krysia-h@supersklep.pl', '000000100', 'Polska', 
-	'Wroc≥aw', '21-543', 'Szybka', 214, 'Dolnoúlπskie';
+	'Wroc≈Çaw', '21-543', 'Szybka', 214, 'Dolno≈õlƒÖskie';
 GO
-EXEC InsertEmployee 'EAndrzeKlus', 'fadgafw2', 1, 'Andrzej', 'Kluú', 'andrew@supersklep.pl', '000000413', 'Polska', 
-	'Wroc≥aw', '23-332', 'GrabiszyÒska', 100, 'Dolnoúlπskie';
+EXEC InsertEmployee 'EAndrzeKlus', 'fadgafw2', 1, 'Andrzej', 'Klu≈õ', 'andrew@supersklep.pl', '000000413', 'Polska', 
+	'Wroc≈Çaw', '23-332', 'Grabiszy≈Ñska', 100, 'Dolno≈õlƒÖskie';
 GO
 EXEC InsertEmployee 'EBeataSilny', 'few23fsd', 2, 'Beata', 'Silny', 'beatka@supersklep.pl', '000000513', 'Polska', 
-	'Wroc≥aw', '31-342', 'G≥Ûwna', 347, 'Dolnoúlπskie';
+	'Wroc≈Çaw', '31-342', 'G≈Ç√≥wna', 347, 'Dolno≈õlƒÖskie';
 GO
-EXEC InsertEmployee 'ERafalHans', 'gsdwesa32r', 1, 'Rafa≥', 'Hans', 'hans@supersklep.pl', '000000299', 'Polska', 
-	'Wroc≥aw', '21-312', 'D≥uga', 321, 'Dolnoúlπskie';
+EXEC InsertEmployee 'ERafalHans', 'gsdwesa32r', 1, 'Rafa≈Ç', 'Hans', 'hans@supersklep.pl', '000000299', 'Polska', 
+	'Wroc≈Çaw', '21-312', 'D≈Çuga', 321, 'Dolno≈õlƒÖskie';
 GO
 EXEC InsertEmployee 'EKrzysSzkanys', 'fsd32fds', 1, 'Krzysztof', 'Szkanys', 'krzys@supersklep.pl', '000000613', 'Polska', 
-	'Wroc≥aw', '21-612', 'D≥uga', 215, 'Dolnoúlπskie';
+	'Wroc≈Çaw', '21-612', 'D≈Çuga', 215, 'Dolno≈õlƒÖskie';
 GO
 
 
@@ -1811,13 +1811,13 @@ GO
 -- EXEC InsertStatusReclamation @Name;
 ---------------------------------------------------------------
 
-EXEC InsertReclamationStatus 'PrzyjÍto reklamacjÍ';
+EXEC InsertReclamationStatus 'Przyjƒôto reklamacjƒô';
 GO
-EXEC InsertReclamationStatus 'Odes≥ano do producenta';
+EXEC InsertReclamationStatus 'Odes≈Çano do producenta';
 GO
-EXEC InsertReclamationStatus 'Naprawiono i odes≥ano do klienta';
+EXEC InsertReclamationStatus 'Naprawiono i odes≈Çano do klienta';
 GO
-EXEC InsertReclamationStatus 'Reklamacja odrzucona. Odes≥ano do klienta';
+EXEC InsertReclamationStatus 'Reklamacja odrzucona. Odes≈Çano do klienta';
 GO
 
 ----TABELA-SHIPPMENT_METHODS------------------------------------
@@ -1826,13 +1826,13 @@ GO
 -- EXEC InsertShippmentMethods @Name, @Description, @Price;
 ----------------------------------------------------------------
 
-EXEC InsertShippmentMethods 'Wysy≥ka kurierem DPD', 'Szybka wysy≥ka. Czas dostarczenia 1 dzieÒ roboczy', 20;
+EXEC InsertShippmentMethods 'Wysy≈Çka kurierem DPD', 'Szybka wysy≈Çka. Czas dostarczenia 1 dzie≈Ñ roboczy', 20;
 GO
-EXEC InsertShippmentMethods 'Wysy≥ka kurierem POCZTEX48', 'Czas dostarczenia 1-2 dni robocze', 15;
+EXEC InsertShippmentMethods 'Wysy≈Çka kurierem POCZTEX48', 'Czas dostarczenia 1-2 dni robocze', 15;
 GO
-EXEC InsertShippmentMethods 'Wysy≥ka pocztπ', 'Czas dostarczenia do 3-4 dni roboczych', 10;
+EXEC InsertShippmentMethods 'Wysy≈Çka pocztƒÖ', 'Czas dostarczenia do 3-4 dni roboczych', 10;
 GO
-EXEC InsertShippmentMethods 'Wysy≥ka do paczkomatu', 'Czas dostarczenia 2 dni robocze', 12;
+EXEC InsertShippmentMethods 'Wysy≈Çka do paczkomatu', 'Czas dostarczenia 2 dni robocze', 12;
 GO
 
 
@@ -1842,15 +1842,15 @@ GO
 -- EXEC InsertPaymentMethods @Name, @Description;
 -----------------------------------------------------------------
 
-EXEC InsertPaymentMethods 'Przelew bankowy', 'KsiÍgowanie do dwÛch dni roboczych';
+EXEC InsertPaymentMethods 'Przelew bankowy', 'Ksiƒôgowanie do dw√≥ch dni roboczych';
 GO
-EXEC InsertPaymentMethods 'P≥atnoúÊ PayPal', 'KsiÍgowanie natychmiastowe';
+EXEC InsertPaymentMethods 'P≈Çatno≈õƒá PayPal', 'Ksiƒôgowanie natychmiastowe';
 GO
-EXEC InsertPaymentMethods 'Szybkie p≥atnoúci', 'KsiÍgowanie do 24 godzin';
+EXEC InsertPaymentMethods 'Szybkie p≈Çatno≈õci', 'Ksiƒôgowanie do 24 godzin';
 GO
-EXEC InsertPaymentMethods 'P≥atnoúÊ kartπ kredytowπ', 'KsiÍgowanie natychmiastowe';
+EXEC InsertPaymentMethods 'P≈Çatno≈õƒá kartƒÖ kredytowƒÖ', 'Ksiƒôgowanie natychmiastowe';
 GO
-EXEC InsertPaymentMethods 'P≥atnoúÊ przy odbiorze', '';
+EXEC InsertPaymentMethods 'P≈Çatno≈õƒá przy odbiorze', '';
 GO
 
 ------------------------------------------------
@@ -1879,78 +1879,78 @@ EXEC InsertCategory 'Laserowe', null , 9;
 GO
 EXEC InsertCategory 'Atramentowe', null , 9;
 GO
-EXEC InsertCategory 'Pozosta≥e', 'Inne akcesoria', 2;
+EXEC InsertCategory 'Pozosta≈Çe', 'Inne akcesoria', 2;
 GO
 
 ------------------------------------------------
--- Dodawanie podatkÛw --
+-- Dodawanie podatk√≥w --
 ------------------------------------------------
 EXECUTE InsertTax 'Podatek Vat', 0;
 GO
 
 
 ------------------------------------------------
---Dodawanie ProducentÛw --
+--Dodawanie Producent√≥w --
 ------------------------------------------------
 
-EXECUTE InsertProducer 'Razer', 'Graøyna', 'Wolska', 'Gwolska@Razer.com', 456986321, 'Polska', 'Szczecin', '87-860', 'Morska', 5, 'Kujawsko-Pomorskie';
+EXECUTE InsertProducer 'Razer', 'Gra≈ºyna', 'Wolska', 'Gwolska@Razer.com', 456986321, 'Polska', 'Szczecin', '87-860', 'Morska', 5, 'Kujawsko-Pomorskie';
 GO
-EXECUTE InsertProducer 'A4tech', 'Jan', 'Kubica', 'JKubica@gmail.com', 562384769, 'Polska', 'Warszwa', '41-963', 'Marsza≥kowska', 56, 'Mazowieckie';
+EXECUTE InsertProducer 'A4tech', 'Jan', 'Kubica', 'JKubica@gmail.com', 562384769, 'Polska', 'Warszwa', '41-963', 'Marsza≈Çkowska', 56, 'Mazowieckie';
 GO
-EXECUTE InsertProducer 'StellSeries' , 'Katarzyna', 'Kowalska', 'Kasia548@o2.pl', 541286327, 'Polska' , 'PoznaÒ' ,'56-182', 'Plac Grunwaldzki', 21, 'Wielkopolskie';
+EXECUTE InsertProducer 'StellSeries' , 'Katarzyna', 'Kowalska', 'Kasia548@o2.pl', 541286327, 'Polska' , 'Pozna≈Ñ' ,'56-182', 'Plac Grunwaldzki', 21, 'Wielkopolskie';
 GO
-EXECUTE InsertProducer 'Brother', 'Mieczys≥aw' , 'Wolny' , 'MWolny@gmail.com' , 667841295, 'Polska' , 'Wroc≥aw' , '58-100', 'Zachodnia' , 15, 'Dolnoúlπskie';
+EXECUTE InsertProducer 'Brother', 'Mieczys≈Çaw' , 'Wolny' , 'MWolny@gmail.com' , 667841295, 'Polska' , 'Wroc≈Çaw' , '58-100', 'Zachodnia' , 15, 'Dolno≈õlƒÖskie';
 GO
-EXECUTE InsertProducer 'Lexmark' , 'Patryk', 'Bogacki', 'PBogacki@wp.pl', 686935418, 'Polska' , 'Warszawa', '41-963', 'Wa≥brzyska', 1, 'Mazowieckie';
+EXECUTE InsertProducer 'Lexmark' , 'Patryk', 'Bogacki', 'PBogacki@wp.pl', 686935418, 'Polska' , 'Warszawa', '41-963', 'Wa≈Çbrzyska', 1, 'Mazowieckie';
 GO
-EXECUTE InsertProducer 'HP', 'Wies≥awa', 'Szymborska', 'WSzymborska@hp.com', 654386749, 'Polska' , '£Ûdü', '56-185', 'Zamkowa', 18, '£Ûdzkie';
+EXECUTE InsertProducer 'HP', 'Wies≈Çawa', 'Szymborska', 'WSzymborska@hp.com', 654386749, 'Polska' , '≈Å√≥d≈∫', '56-185', 'Zamkowa', 18, '≈Å√≥dzkie';
 GO
-EXECUTE InsertProducer  'Media tech',	'Paulina'	,'BiedroÒ'	,'PBiedron@gmail.com',	529638415	,'Polska',	'ToruÒ',	'52-961',	'Cmentarna',	6	,'Kujowasko-pomorskie'
+EXECUTE InsertProducer  'Media tech',	'Paulina'	,'Biedro≈Ñ'	,'PBiedron@gmail.com',	529638415	,'Polska',	'Toru≈Ñ',	'52-961',	'Cmentarna',	6	,'Kujowasko-pomorskie'
 GO
-EXECUTE InsertProducer 'Logitech',	'Zdzis≥aw',	'Øulikowski', 'Zdzisiek549@wp.pl', 	528961478,'Polska',	'KrakÛw', 	'64-852','Leúna', 	25, 'Ma≥opolskie'
+EXECUTE InsertProducer 'Logitech',	'Zdzis≈Çaw',	'≈ªulikowski', 'Zdzisiek549@wp.pl', 	528961478,'Polska',	'Krak√≥w', 	'64-852','Le≈õna', 	25, 'Ma≈Çopolskie'
 GO
-EXECUTE InsertProducer 'Canon',	'Edward'	,'åmig≥y',	'ESmigly@live.com',	685219638,	'Polska',	'Legnica',	'58-145',	'D≥uga'	,16,	'Dolnoúlπskie'
+EXECUTE InsertProducer 'Canon',	'Edward'	,'≈ömig≈Çy',	'ESmigly@live.com',	685219638,	'Polska',	'Legnica',	'58-145',	'D≈Çuga'	,16,	'Dolno≈õlƒÖskie'
 GO
-EXECUTE InsertProducer 'Samsung',	'Mieczys≥awa',	'Grabowska',	'MGrabowska@hotmail.com',	666963954	,'Polska',	'Katowice'	,'64-125',	'Fabryczna',34	,'ålπskie'
+EXECUTE InsertProducer 'Samsung',	'Mieczys≈Çawa',	'Grabowska',	'MGrabowska@hotmail.com',	666963954	,'Polska',	'Katowice'	,'64-125',	'Fabryczna',34	,'≈ölƒÖskie'
 GO
-EXECUTE InsertProducer 'Sony', 'Adam'	,'Adamczyk',	'AAdamczyk@sony.com',	752961485	,'Polska'	,'Jelenia GÛra'	,'56-148',	'Browarowa',	3	,'Dolnoslπskie'
+EXECUTE InsertProducer 'Sony', 'Adam'	,'Adamczyk',	'AAdamczyk@sony.com',	752961485	,'Polska'	,'Jelenia G√≥ra'	,'56-148',	'Browarowa',	3	,'DolnoslƒÖskie'
 GO
 
 -----------------------------------------------
--- Dodawanie DostawcÛw --
+-- Dodawanie Dostawc√≥w --
 -----------------------------------------------
 
-EXECUTE Supplier_Add 'Yamo', 'Grzegorz' , 'Piasecki' , 'GPiasecki@yamo.pl', 452698357, 'Polska', 'Wroc≥aw', '58-100', 'Armi Krajowej', 4, 'Dolnoúlπskie';
+EXECUTE Supplier_Add 'Yamo', 'Grzegorz' , 'Piasecki' , 'GPiasecki@yamo.pl', 452698357, 'Polska', 'Wroc≈Çaw', '58-100', 'Armi Krajowej', 4, 'Dolno≈õlƒÖskie';
 GO
-EXECUTE Supplier_Add 'Incom', 'Bart≥omiej', 'Filipek', 'BFilipek@gmail.com', 583951728, 'Polska', 'PoznaÒ', '54-893', 'ToruÒska', 53, 'Wielkopolskie';
+EXECUTE Supplier_Add 'Incom', 'Bart≈Çomiej', 'Filipek', 'BFilipek@gmail.com', 583951728, 'Polska', 'Pozna≈Ñ', '54-893', 'Toru≈Ñska', 53, 'Wielkopolskie';
 GO
-EXECUTE Supplier_Add 'Sprint', 'Zuzanna' , 'Mucha', 'ZMucha@wp.pl', 457986265, 'Polska', 'Wa≥brzych','58-130' ,'åwidnicka', 5, 'Dolnoúlπskie';
+EXECUTE Supplier_Add 'Sprint', 'Zuzanna' , 'Mucha', 'ZMucha@wp.pl', 457986265, 'Polska', 'Wa≈Çbrzych','58-130' ,'≈öwidnicka', 5, 'Dolno≈õlƒÖskie';
 GO
-EXECUTE Supplier_Add 'Axel Computer', 'Konrad', 'Walendron', 'KWalenrod@axel.com', 808546935, 'Polska', 'GdaÒsk', '80-208', 'Stoczniowa', 19, 'Pomorskie';
+EXECUTE Supplier_Add 'Axel Computer', 'Konrad', 'Walendron', 'KWalenrod@axel.com', 808546935, 'Polska', 'Gda≈Ñsk', '80-208', 'Stoczniowa', 19, 'Pomorskie';
 GO
-EXECUTE Supplier_Add 'Pakt', 'Monika', 'KuczyÒska', 'MKuczynska@Pakt.pl', 963852741, 'Polska', 'Warszawa', '02-776', 'Kazimierza Wielkiego', 29, 'Mazowieckie';
+EXECUTE Supplier_Add 'Pakt', 'Monika', 'Kuczy≈Ñska', 'MKuczynska@Pakt.pl', 963852741, 'Polska', 'Warszawa', '02-776', 'Kazimierza Wielkiego', 29, 'Mazowieckie';
 GO
-EXECUTE Supplier_Add 'Pronox', 'Genowefa', 'Nowak', 'GNowak@Pronox.pl', 654852961, 'Polska' ,'Polkowice', '57-635', 'Parkowa', 12, 'Dolnoúlπskie';
+EXECUTE Supplier_Add 'Pronox', 'Genowefa', 'Nowak', 'GNowak@Pronox.pl', 654852961, 'Polska' ,'Polkowice', '57-635', 'Parkowa', 12, 'Dolno≈õlƒÖskie';
 GO
-EXECUTE Supplier_Add 'Proline', 'Alicja', 'Bukowska', 'ABukowska@Proline.pl', 762854963, 'Polska', 'Leszno', '64-100', 'LeszczyÒskich', 5, 'ålπskie';
+EXECUTE Supplier_Add 'Proline', 'Alicja', 'Bukowska', 'ABukowska@Proline.pl', 762854963, 'Polska', 'Leszno', '64-100', 'Leszczy≈Ñskich', 5, '≈ölƒÖskie';
 GO
-EXECUTE Supplier_Add 'Adict', 'Edward', 'ZieliÒki', 'AZielinski@Adict.pl', 659384192, 'Polska', 'Gniezno', '42-611', 'Centralna', 16, 'Wielkopolskie';
+EXECUTE Supplier_Add 'Adict', 'Edward', 'Zieli≈Ñki', 'AZielinski@Adict.pl', 659384192, 'Polska', 'Gniezno', '42-611', 'Centralna', 16, 'Wielkopolskie';
 GO
-EXECUTE Supplier_Add 'Atapol', 'Ludwik', 'Wielki', 'LWielki@Atapol.com',  743851469, 'Polska', 'W≥oszczowa', '15-157', 'Dworcowa', 1, 'Mazowieckie';
+EXECUTE Supplier_Add 'Atapol', 'Ludwik', 'Wielki', 'LWielki@Atapol.com',  743851469, 'Polska', 'W≈Çoszczowa', '15-157', 'Dworcowa', 1, 'Mazowieckie';
 GO
-EXECUTE Supplier_Add 'Ogleo', 'Ma≥gorzata', 'Kowalska', 'MKowalska@Ogleo.pl', 652963851, 'Polska', 'RzeszÛw', '52-453', 'Polna', 15, 'Podkarpackie';
+EXECUTE Supplier_Add 'Ogleo', 'Ma≈Çgorzata', 'Kowalska', 'MKowalska@Ogleo.pl', 652963851, 'Polska', 'Rzesz√≥w', '52-453', 'Polna', 15, 'Podkarpackie';
 GO
 
 ----------------------------------------------
--- Dodawanie ProduktÛw --
+-- Dodawanie Produkt√≥w --
 ----------------------------------------------
-EXECUTE InsertProduct 'Naga', 5, 1, 1, 270.00, 1 ,'myszka laserowa, przewodowa, Max. RozdzielczoúÊ (DPI): 8200', 0, 342.9;
+EXECUTE InsertProduct 'Naga', 5, 1, 1, 270.00, 1 ,'myszka laserowa, przewodowa, Max. Rozdzielczo≈õƒá (DPI): 8200', 0, 342.9;
 GO
-EXECUTE InsertProduct 'Sensei', 5, 3, 2, 220.00, 1, 'myszka laserowa, przewodowa, Max. RozdzielczoúÊ (DPI): 5700', 0, 270.6;
+EXECUTE InsertProduct 'Sensei', 5, 3, 2, 220.00, 1, 'myszka laserowa, przewodowa, Max. Rozdzielczo≈õƒá (DPI): 5700', 0, 270.6;
 GO
-EXECUTE InsertProduct 'X7', 5, 2, 3, 50, 1, 'Myszka optyczna, przewodowa, Max. RozdzielczoúÊ (DPI): 1600', 0, 61.5;
+EXECUTE InsertProduct 'X7', 5, 2, 3, 50, 1, 'Myszka optyczna, przewodowa, Max. Rozdzielczo≈õƒá (DPI): 1600', 0, 61.5;
 GO
-EXECUTE InsertProduct 'HL-1110E', 10, 4, 1, 200.00, 1,  'Ma≥a monochromatyczna drukarka laserowa', 0, 246.00;
+EXECUTE InsertProduct 'HL-1110E', 10, 4, 1, 200.00, 1,  'Ma≈Ça monochromatyczna drukarka laserowa', 0, 246.00;
 GO
 EXECUTE InsertProduct 'F310', 7, 8, 5, 70.0, 1, 'Gamepad Logitech Gamepad F310', 0, 86.1;
 GO
@@ -1960,9 +1960,9 @@ EXECUTE InsertProduct 'Razer Deathstalker Essential', 6, 1, 4, 140.00, 1, 'Klawi
 GO
 EXECUTE InsertProduct 'K120', 6, 8, 6, 40, 1, 'Klawiatura Logitech K120', 0, 49.2;
 GO
-EXECUTE InsertProduct 'Logitech G27 Racing Wheel', 8, 8, 8, 700.00, 1, 'Kierownica wraz z osprzÍtem dla komputerÛw PC ', 0, 861;
+EXECUTE InsertProduct 'Logitech G27 Racing Wheel', 8, 8, 8, 700.00, 1, 'Kierownica wraz z osprzƒôtem dla komputer√≥w PC ', 0, 861;
 GO
-EXECUTE InsertProduct 'MediaTech CYBER Race', 8, 7, 9, 150.00, 1, 'Kierownica kompatybilna z PC i konsolami PS1, PS2. Kπt obrotu 270 stopni', 0, 184.5;
+EXECUTE InsertProduct 'MediaTech CYBER Race', 8, 7, 9, 150.00, 1, 'Kierownica kompatybilna z PC i konsolami PS1, PS2. KƒÖt obrotu 270 stopni', 0, 184.5;
 GO
 EXECUTE InsertProduct 'Pixma IP7250', 11, 9, 7, 230.00, 1, 'Szybka drukarka fotograficzna', 0, 282.9;
 GO
@@ -1982,7 +1982,7 @@ EXECUTE InsertSupply 5600.00, 1;
 GO
 
 -----------------------------------------
---Dodawanie produktÛw do dostawy--
+--Dodawanie produkt√≥w do dostawy--
 ------------------------------------------
 
 EXECUTE InsertSupplyDetail 1, 4, 100, 40;
@@ -1997,18 +1997,18 @@ EXECUTE InsertSupplyDetail 4, 4, 100, 16;
 GO
 
 -----------------------------------------
---Dodawanie StatusÛw zamÛwienia--
+--Dodawanie Status√≥w zam√≥wienia--
 -----------------------------------------
 
-EXECUTE InsertOrderStatus 'ZamÛwienie nieop≥acone';
+EXECUTE InsertOrderStatus 'Zam√≥wienie nieop≈Çacone';
 GO
-EXECUTE InsertOrderStatus 'Przygotowanie do wysy≥ki';
+EXECUTE InsertOrderStatus 'Przygotowanie do wysy≈Çki';
 GO
-EXECUTE InsertOrderStatus 'Towar wys≥any';
+EXECUTE InsertOrderStatus 'Towar wys≈Çany';
 GO
-EXECUTE InsertOrderStatus 'ZamÛwienie zrealizowane';
+EXECUTE InsertOrderStatus 'Zam√≥wienie zrealizowane';
 GO
-EXECUTE InsertOrderStatus 'Towar ZwrÛcony';
+EXECUTE InsertOrderStatus 'Towar Zwr√≥cony';
 GO
 
 
@@ -2020,11 +2020,11 @@ GO
 -- @DiscountPercent int;
 ----------------------------------------------------------------
 
-EXEC InsertOrder 1, 1, 1, 'ProszÍ o szybkπ realizacjÍ', 5;
+EXEC InsertOrder 1, 1, 1, 'Proszƒô o szybkƒÖ realizacjƒô', 5;
 GO
-EXEC InsertOrder 2, 1, 1, 'ProszÍ o wolnπ realizacjÍ', 10;
+EXEC InsertOrder 2, 1, 1, 'Proszƒô o wolnƒÖ realizacjƒô', 10;
 GO
-EXEC InsertOrder 3, 1, 1, 'ProszÍ w ogÛle o realizacjÍ', 0;
+EXEC InsertOrder 3, 1, 1, 'Proszƒô w og√≥le o realizacjƒô', 0;
 GO
 EXEC InsertOrder 4, 1, 1, 'Bez komentarza', 0;
 GO
@@ -2032,7 +2032,7 @@ EXEC InsertOrder 4, 1, 1, 'Dziekuje za zrealizowanie', 0;
 GO
 
 -----------------------------------------------------------------
--- Dodawanie produktu do zamÛwienia poleceniem:
+-- Dodawanie produktu do zam√≥wienia poleceniem:
 -----------------------------------------------------------------
 -- EXEC @IdOrder int, @IdProduct int, @Quantity int;
 -----------------------------------------------------------------
@@ -2068,7 +2068,7 @@ EXEC InsertReclamation 4, 2, 'Opis 4...';
 GO
 
 ----------------------------------------------------
---Dodawanie ZwrotÛw
+--Dodawanie Zwrot√≥w
 ----------------------------------------------------
 EXEC InsertReturn 2
 GO
@@ -2078,7 +2078,7 @@ EXEC InsertReturn 4
 GO
 
 ----------------------------------------------------
---Dodawanie produkÛw do ZwrotÛw
+--Dodawanie produk√≥w do Zwrot√≥w
 ----------------------------------------------------
 EXEC InsertReturnDetails 1, 2
 GO
@@ -2093,13 +2093,13 @@ GO
 ----------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------
 
--- DODAJ SOBIE PO KAZDYM END S£”WKO GO, WTEDY MOØNA PUSIC CA£Y SKRYPT NA RAZ!
+-- DODAJ SOBIE PO KAZDYM END S≈Å√ìWKO GO, WTEDY MO≈ªNA PUSIC CA≈ÅY SKRYPT NA RAZ!
 ------------------------------------------------------------------------------------
--- Procedura sprawdza czy istniejπ w systemie zaleg≥e reklamacje ze statusem 1 lub 2
--- czyli takie, ktÛre nie zosta≥y wys≥ane do producenta lub zosta≥y wys≥ane a
--- nie zosta≥y odes≥ane do klienta.
--- Procedura przyjmuje parametr liczbowy w postaci liczby dni. Moøna sprawdziÊ np.
--- czy w systemie znajdujπ siÍ reklamacje starsze niø 14 dni z powyøszymi statusami:
+-- Procedura sprawdza czy istniejƒÖ w systemie zaleg≈Çe reklamacje ze statusem 1 lub 2
+-- czyli takie, kt√≥re nie zosta≈Çy wys≈Çane do producenta lub zosta≈Çy wys≈Çane a
+-- nie zosta≈Çy odes≈Çane do klienta.
+-- Procedura przyjmuje parametr liczbowy w postaci liczby dni. Mo≈ºna sprawdziƒá np.
+-- czy w systemie znajdujƒÖ siƒô reklamacje starsze ni≈º 14 dni z powy≈ºszymi statusami:
 
 -- EXEC FindOverdueReclamations 14;
 -------------------------------------------------------------------------------------
@@ -2109,7 +2109,7 @@ CREATE PROCEDURE FindOverdueReclamations
 AS BEGIN
 
 SELECT Reclamations.IdReclamation as 'Nr reklamacji', Status_Reclamation.Name_Status_Reclamation
-	as 'Status', Reclamations.Date_reclamation as 'Data rozpoczÍcia', Products.Name_Product
+	as 'Status', Reclamations.Date_reclamation as 'Data rozpoczƒôcia', Products.Name_Product
 	as 'Nazwa produktu'
 FROM Reclamations
 	inner join Status_Reclamation on 
@@ -2122,8 +2122,8 @@ END
 GO
 
 ----------------------------------------------------------------------------------------------
--- Procedura pozwalajπca na wyszukiwanie pracownikÛw po imieniu i/lub nazwisku wprowadzajπc
--- ciπg tekstowy:
+-- Procedura pozwalajƒÖca na wyszukiwanie pracownik√≥w po imieniu i/lub nazwisku wprowadzajƒÖc
+-- ciƒÖg tekstowy:
 
 -- EXEC FindEmployee 'Anna', NULL;
 ----------------------------------------------------------------------------------------------
@@ -2135,7 +2135,7 @@ CREATE PROCEDURE FindEmployee
 AS BEGIN
 
 SELECT Employees.IdEmployee as 'Nr pracownika', Groups.Role as 'Stanowisko',
-	Contacts.FirstName as 'ImiÍ', Contacts.LastName as 'Nazwisko', 
+	Contacts.FirstName as 'Imiƒô', Contacts.LastName as 'Nazwisko', 
 	Contacts.Email as 'Adres mail', Contacts.Phone_Number as 'Numer telefonu', 
 	Addresses.Street_Name as 'Nazwa ulicy',  Addresses.Street_Number as 'Nr domu', 
 	Addresses.City as 'Miasto'
@@ -2149,7 +2149,7 @@ END
 GO
 
 ------------------------------------------------------------------------------------
--- Procedura pozwala wyúwietliÊ øπdanπ iloúÊ najlepiej sprzedajπcych siÍ produktÛw 
+-- Procedura pozwala wy≈õwietliƒá ≈ºƒÖdanƒÖ ilo≈õƒá najlepiej sprzedajƒÖcych siƒô produkt√≥w 
 -- w sklepie.
 
 -- EXEC ShowBestSellers 10;
@@ -2176,9 +2176,9 @@ END
 GO
 
 ----------------------------------------------------------------------------------------------
--- Procedura pozwala na wyúwietlanie listy produktÛw w danym zamÛwieniu. Jest pomocna dla
--- pracownikÛw obs≥ugujπcych zamÛwienie klienta. Pozwala na przygotowanie do wysy≥ki zamÛwionych
--- produktÛw:
+-- Procedura pozwala na wy≈õwietlanie listy produkt√≥w w danym zam√≥wieniu. Jest pomocna dla
+-- pracownik√≥w obs≈ÇugujƒÖcych zam√≥wienie klienta. Pozwala na przygotowanie do wysy≈Çki zam√≥wionych
+-- produkt√≥w:
 
 -- EXEC ShowProductsFromOrderNr 4;
 -----------------------------------------------------------------------------------------------
@@ -2189,7 +2189,7 @@ CREATE PROCEDURE ShowProductsFromOrderNr
 AS BEGIN
 
 SELECT Products.IdProduct as 'ID produktu', Products.Name_Product as 'Nazwa produktu', 
-	Order_Details.Quantity_Ordered as 'ZamÛwiona iloúÊ'
+	Order_Details.Quantity_Ordered as 'Zam√≥wiona ilo≈õƒá'
 FROM Order_Details 
 	inner join Products on Products.IdProduct = Order_Details.IdProduct
 WHERE Order_Details.IdOrder = @Number
@@ -2199,8 +2199,8 @@ END
 GO
 
 -------------------------------------------------------------------------------------------------
--- Procedura pozwala na wyúwietlenie N liczby nazw miast z ktÛrych najczÍúciej klienci robiπ zakupy.
--- Bywa pomocna w okreúleniu prawid≥owej strategii marketingowej na danym obszarze kraju:
+-- Procedura pozwala na wy≈õwietlenie N liczby nazw miast z kt√≥rych najczƒô≈õciej klienci robiƒÖ zakupy.
+-- Bywa pomocna w okre≈õleniu prawid≈Çowej strategii marketingowej na danym obszarze kraju:
 
 -- EXEC ShowSalesByCities 10;
 ---------------------------------------------------------------------------------------------------
@@ -2210,20 +2210,20 @@ CREATE PROCEDURE ShowSalesByCities
 
 AS BEGIN
 
-SELECT TOP (@Number) Addresses.City as 'Miasto', Addresses.State as 'WojewÛdztwo', COUNT(*) as 'IloúÊ zamÛwieÒ'
+SELECT TOP (@Number) Addresses.City as 'Miasto', Addresses.State as 'Wojew√≥dztwo', COUNT(*) as 'Ilo≈õƒá zam√≥wie≈Ñ'
 
 FROM Orders
 	inner join Customers on Customers.IdCustomer = Orders.IdCustomer
 	inner join Addresses on Addresses.IdAddress = Customers.IdMainAddress
 
 GROUP BY Addresses.City, Addresses.State
-ORDER BY [IloúÊ zamÛwieÒ] DESC;
+ORDER BY [Ilo≈õƒá zam√≥wie≈Ñ] DESC;
 
 END
 GO
 
 --------------------------------------------------
---Wyszukiwanie szczegÛ≥Ûw o Produkcie po nazwie --
+--Wyszukiwanie szczeg√≥≈Ç√≥w o Produkcie po nazwie --
 --Exec FindProduct G27--
 --------------------------------------------------
 
@@ -2233,7 +2233,7 @@ CREATE PROCEDURE FindProduct
 AS BEGIN
 
 SELECT Products.IdProduct As 'ID Produktu', Products.Name_Product As 'Nazwa Produktu', Producers.Name_Producer As 'Nazwa Producenta',
-Products.Quantity_Possessed As 'IloúÊ sztuk',Products.Net_Price As 'Cena Netto', Products.Gross_Price As 'Cena brutto'
+Products.Quantity_Possessed As 'Ilo≈õƒá sztuk',Products.Net_Price As 'Cena Netto', Products.Gross_Price As 'Cena brutto'
 FROM Products
 	inner join Producers on Producers.IdProducer = Products.IdProducer
 WHERE Products.Name_Product LIKE '%'  + @Name_Product + '%'
@@ -2241,7 +2241,7 @@ END
 GO
 
 -----------------------------------------------------------
--- Wyúwietlenie ile produktÛw oferuje nam dany Producent po nazwie lub ID
+-- Wy≈õwietlenie ile produkt√≥w oferuje nam dany Producent po nazwie lub ID
 --EXEC ShowProduceritem null, 3
 -----------------------------------------------------------
 
@@ -2263,7 +2263,7 @@ END
 GO
 
 ------------------------------------------------------
---SzczegÛ≥y dostawy--
+--Szczeg√≥≈Çy dostawy--
 --exec ShowSupplydetail 1
 ------------------------------------------------------
 CREATE PROCEDURE ShowSupplydetail
@@ -2271,26 +2271,26 @@ CREATE PROCEDURE ShowSupplydetail
 
 AS BEGIN
 SELECT Supply.IdSupply As 'Id Dostawy', Suppliers.Name_Supplier As 'Nazwa dostawcy', Products.Name_Product As 'Nazwa produktu', 
-Supply_Details.Price_Item As 'Cena za sztuke', Supply_Details.Quantity_Supplied As 'Dostarczona iloúÊ'
+Supply_Details.Price_Item As 'Cena za sztuke', Supply_Details.Quantity_Supplied As 'Dostarczona ilo≈õƒá'
 FROM Supply
 	inner join Suppliers on Suppliers.IdSupplier = Supply.IdSupplier
 	inner join Supply_Details on Supply_Details.IdSupply = Supply.IdSupply
 	inner join Products on Products.IdProduct = Supply_Details.IdProduct
 WHERE Supply.IdSupply like @Number
-Order by [Dostarczona iloúÊ] DESC
+Order by [Dostarczona ilo≈õƒá] DESC
 END
 GO
 
 ----------------------------------------------------
---SzczegÛ≥y zwrotu towaru--
+--Szczeg√≥≈Çy zwrotu towaru--
 --EXEC ShowReturnDeatil 3
 ----------------------------------------------------
 
 CREATE PROCEDURE ShowReturnDeatil
 @Number int
 AS BEGIN
-SELECT Returns.IdReturn As 'Id Zwrotu', Products.Name_Product As 'Nazwa Produktu', Returns.IdOrder As 'Id ZamÛwienia', 
-Orders.Date_Order 'Data ZamÛwienia', Returns.Date_Return 'Data Zwrotu'
+SELECT Returns.IdReturn As 'Id Zwrotu', Products.Name_Product As 'Nazwa Produktu', Returns.IdOrder As 'Id Zam√≥wienia', 
+Orders.Date_Order 'Data Zam√≥wienia', Returns.Date_Return 'Data Zwrotu'
 FROM Returns
 	inner join Return_Details on Return_Details.IdReturn = Returns.IdReturn
 	inner join Products on Products.IdProduct = Return_Details.IdProduct
